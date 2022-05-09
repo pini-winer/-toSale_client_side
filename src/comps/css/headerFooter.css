@@ -1,0 +1,54 @@
+.header-client{
+  color: rgb(240, 240, 240);
+  min-height: 60px;
+  background:rgb(0, 0, 0);
+  position: relative;
+  z-index: 999;
+
+}
+
+.header-client .container , .header-client .row{
+  min-height: inherit;
+}
+
+.header-client .logo a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.header-client nav  a{
+  color:rgb(255, 255, 255);
+  padding:0 12px;
+  text-decoration: none;
+}
+
+.header-client nav  a:hover{
+  color:rgb(139, 239, 224);
+  text-decoration: underline;
+}
+
+.header-client nav .search_header .btn{
+  /* border:1px solid silver; */
+  padding-bottom: 10px;
+}
+
+.header-client .icon1{
+  color:rgb(255, 255, 255);
+}
+
+
+.footer-client{
+  height: 15ch;
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+}
+
+.py-4 {
+  background-color: rgba(0, 0, 0, 0.791);
+  color: rgb(251, 251, 251);
+}
+.b_box {
+  background-color: rgba(0, 0, 0, 0.791);
+  color: rgb(251, 251, 251);
+}

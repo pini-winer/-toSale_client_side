@@ -1,0 +1,40 @@
+.strip_home{
+    background-image: url(https://i.giphy.com/media/jISG1zbfL006tAGI1q/giphy.webp);
+  min-height: 350px;
+  
+  background-size: cover;
+  background-position:center center;
+}
+
+.strip_home h2, .strip_home h4 {
+  color: #fdfdfd;
+}
+
+
+.categories_list_fluid{
+background-color: rgb(0, 0, 0);
+color: #fdfdfd;
+}
+
+.categories_list a{
+  text-decoration: none;
+}
+
+.categories_list a > div{
+  transition: 400ms;
+}
+
+.categories_list a:hover > div{
+  /* border:red 3px solid; */
+  box-sizing: border-box;
+  transform: scale(1.04,1.04);
+}
+
+
+.categories_list .myCard .img_card{
+  min-height: 150px;
+  background:silver;
+  background-size: cover;
+  background-position:center center;
+}
+
